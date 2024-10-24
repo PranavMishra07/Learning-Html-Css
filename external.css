@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(67, 69, 69);
+}
+div{
+    background-color: rgb(106, 102, 97);
+}
+h2{
+    background-color: rgb(175, 171, 205);
+
+}
+.head1{
+    background-color: rgb(194, 119, 6);
+}
+p{
+    background-color: aqua;
+    color: blue;
+}

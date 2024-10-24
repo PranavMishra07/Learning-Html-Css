@@ -1,0 +1,14 @@
+.container{
+    background-color: rgb(219, 234, 6);
+    padding: 20px;
+    /* padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    */
+    border: 9px double rgb(8, 57, 235); 
+     border-left:21px solid ;
+    border-bottom: 20px solid; 
+    /* border-radius: 40px; */
+   border-top-left-radius: 30px ;
+}

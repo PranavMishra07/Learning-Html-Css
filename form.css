@@ -1,0 +1,18 @@
+body{
+   color: rgb(53, 0, 27);
+    background-color: rgb(239, 172, 124);
+}
+label{
+    /* background-color: rgb(124, 117, 120); */
+    border: 20px;
+    border-color: blue;
+}
+input{
+    color: red;
+    background-color: yellow;
+}
+select{
+    color: black;
+    background-color: hotpink;
+}
+

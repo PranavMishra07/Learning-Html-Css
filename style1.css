@@ -1,0 +1,22 @@
+body{
+background-color: rgb(231, 16, 88);
+}
+.head1{
+    color: rgb(165, 226, 43);
+    /* font-size: 50px; */
+    font-style: italic;
+    text-decoration: underline overline;
+    text-decoration-style:wavy;
+    text-decoration-color:rgb(17, 165, 223);
+    text-align: center;
+}
+.para{
+    color: rgb(196, 241, 16);
+    font-family: Verdana;
+    font-size: 30px;
+    /* word-spacing: 30px;
+    letter-spacing: 20px; */
+    line-height: 80px;
+    font-weight: bold;
+    text-shadow: 5px 6px 8px rgb(45, 13, 224);
+}
