@@ -7,8 +7,17 @@
     padding-right: 20px;
     */
     border: 9px double rgb(8, 57, 235); 
-     border-left:21px solid ;
-    border-bottom: 20px solid; 
+     border-left:21px solid   blue;
+    border-bottom: 20px solid rgb(255, 81, 0); 
     /* border-radius: 40px; */
    border-top-left-radius: 30px ;
+}
+.square{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    box-shadow: 4px 5px 12px 6px black;
+    /* margin-top: 30px;
+    margin-left: 60px; */
+    margin: 40px;
 }

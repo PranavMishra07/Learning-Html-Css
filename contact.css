@@ -1,0 +1,44 @@
+
+.icons{
+  background-color:black;
+  color: white;
+    border:5px solid red;
+    padding: 20px;
+    font-size: 20px;
+     text-align: center; 
+    font-weight: bold;
+}
+.con{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 50px;
+}
+.wht{
+    color: black;
+    font-size: 25px;
+   margin: 5px;
+    background-color: rgb(185, 238, 106);
+    border-radius: 70px;
+
+}
+.fbo{
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+    background-color: rgb(78, 126, 213);
+    border-radius:50px;
+}
+.insta{
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+    background-color: hotpink;
+    border-radius: 20px;
+}
+.snap{
+    color: black;
+    font-size: 25px;
+    margin: 6px;
+    background-color: yellow;
+    border-radius: 5px;
+}
