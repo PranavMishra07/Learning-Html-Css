@@ -1,13 +1,20 @@
-/* .main{
-    background-image: url(download.jpg);
-    height: 400vh;
+.main{
+    background-image: url(image/istock1\).webp);
+    height:100vh;
     background-repeat: no-repeat; 
-} */
+    /* background-size: cover; */
+}
 .main h1{
-    background-color: rgba(255, 0, 0, 0.358);
+    color: white;
+    background-color: rgba(255, 213, 0, 0.269);
 }
 .live{
-    background-image: url(istockphoto-1287065728-612x612.webp);
+    background-image: url(image/gradient.jpg);
     height: 100vh;
-    background size
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.live h1{
+    background-color: rgba(222, 184, 135, 0.444);
 }
