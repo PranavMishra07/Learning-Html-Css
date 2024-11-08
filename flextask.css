@@ -1,0 +1,40 @@
+.cont{
+  
+    height: 500px;
+    background-color: rgb(219, 23, 23);
+}
+.container{
+    background-color: rgb(170, 161, 161);
+    display: flex;
+    justify-content: center;
+    height: 275px;
+}
+.div1{
+    
+    color: rgb(49, 32, 18);
+    padding-top: 70px;
+    padding-left: 60px;
+}
+.b1{
+    border: 2px solid rebeccapurple;
+   
+    height: 35px;
+    font-weight: bold;
+    background-color: rgb(192, 255, 67);
+}
+.h1{
+    color: rgb(54, 31, 3);
+    font-size:30px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.h2{
+
+    font-size:45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img{
+   
+    margin-bottom: 50px;
+    
+}
