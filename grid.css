@@ -1,0 +1,16 @@
+.wrapper{
+    background-color: yellow;
+    height: 100vh;
+    display: grid;
+    /* grid-template-columns: 200px 300px auto; */
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: 200px 300px;
+}
+.ch{
+    background-color: lavenderblush;
+  border: 2px solid;
+}
+.ch1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}

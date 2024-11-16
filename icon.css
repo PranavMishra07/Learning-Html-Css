@@ -3,7 +3,29 @@
     color: red;
     padding: 60px;
     background-color: black;
-    border-radius: 50%;
+    border-radius: 50%; 
     margin-left: 50px;
 
+}
+.ch{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 2px solid;
+}
+#parent{
+    display: flex;
+    justify-content: space-around;
+}
+.navigate{
+    display: flex;
+    background-color: rgb(59, 163, 255);
+    justify-content: space-around;
+}
+.navigate ul{
+    align-items: center;
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    gap: 40px;
 }

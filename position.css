@@ -1,0 +1,28 @@
+.container{
+    background-color: blue;
+    height: 400px;
+    margin-top: 150px;
+}
+.ch{
+    height: 200px;
+    width: 200px;
+     background-color: brown;
+     /* position: absolute; 
+       top: 40px;
+     left: 40px; */
+    
+     position: relative;
+     top: 40px;
+     left: 40px;
+     
+    
+     
+}
+img{
+    height: 300px;
+    /* position: fixed; */
+    /* top: 500px; */
+    position: sticky;    /*  */
+    top: 0%;
+  
+}

@@ -1,17 +1,33 @@
 .nav{
-    background-color: rgb(0, 255, 128);
+    /* background-image: url(image/slack_2584687.png).webp); */
+    /* background-repeat: no-repeat; */
+ 
+    align-items: center;
+    margin-top: 25px;
+    height: 25px;
+    background-color: rgb(35, 0, 116);
     display: flex;
     justify-content: space-around;
-    align-items: center;
+  
 }
 .nav ul{
+    color: white;
+    align-items: center;
     font-weight: bold;
     display: flex;
-    gap: 30px;
+    gap: 50px;
     list-style: none;
 }
 .img{
+    border-radius: 90px;
     align-items: center;
-   height: 20px;
-   width: 60px;
+   height: 60px;
+  
+
+}
+.div1{
+    display: flex;
+    background-color: black;
+    height: 400px;
+    align-items: center;
 }
