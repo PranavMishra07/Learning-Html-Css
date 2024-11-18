@@ -1,16 +1,22 @@
-.wrapper{
+.wrapper2{
     background-color: yellow;
-    height: 100vh;
     display: grid;
-    /* grid-template-columns: 200px 300px auto; */
-    grid-template-columns: repeat(4,auto);
-    grid-template-rows: 200px 300px;
+    border: 2px solid black ;
+    height: 100vh;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
 }
 .ch{
-    background-color: lavenderblush;
-  border: 2px solid;
+    border: 2px solid;
 }
 .ch1{
+    border: 2px solid;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 4;
+}
+.ch2{
+    width: 100px;
+    border: 2px solid;
+    grid-row-start: 2;
+    grid-column-end: 4;
 }
