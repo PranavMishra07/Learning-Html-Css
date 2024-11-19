@@ -6,8 +6,8 @@ background-color: rgb(231, 16, 88);
     /* font-size: 50px; */
     font-style: italic;
     text-decoration: underline overline;
-    text-decoration-style:wavy;
-    text-decoration-color:rgb(17, 165, 223);
+    text-decoration-style:dashed;
+    text-decoration-color:rgb(11, 23, 28);
     text-align: center;
 }
 .para{

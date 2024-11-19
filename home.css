@@ -1,0 +1,99 @@
+.H1{
+    font-size: 40px;
+    text-align: center;
+}
+.head{
+    border-radius: 8px;
+    padding: 35px;
+    background-color: black;
+display: flex;
+justify-content: center;
+gap: 6px;
+}
+.head input{
+    border: 1px solid black;
+    height: 40px;
+    background-color: rgba(63, 38, 38, 0.782);
+    color: rgba(255, 255, 255, 0.442);
+    font-size: 20px;
+    text-align: center;
+}
+.head select{
+    text-align: center;
+    border: 1px solid black;
+    color: rgba(255, 255, 255, 0.598);
+    background-color: rgba(67, 46, 46, 0.783);
+    height: 40px;
+    width: 80px;
+}
+.head button{
+    height: 40px;
+    width: 100px;
+    background-color: tomato;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.h2{
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    text-align: center;
+}
+.main img{
+    width: 300px;
+    height: 340px;
+}
+.div1{
+
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 12px;
+}
+.div2{
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 12px;
+}
+.div3{
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 12px;
+}
+#rate{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.main button{
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(92, 92, 249);
+    height: 34px;
+    width: 90px;
+    border-radius: 17px;
+}
+.div4 {
+    padding: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#b45{
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 14px;
+    background-color: red;
+   height: 40px;
+    width: 100px;
+}
+   
