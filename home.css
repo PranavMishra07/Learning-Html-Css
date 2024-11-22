@@ -96,4 +96,41 @@ p{
    height: 40px;
     width: 100px;
 }
-   
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 5px solid black;
+    position: relative;
+    animation-name: demo;
+    animation-duration: 2s;
+
+}
+/* @keyframes demo{
+    to{
+        left: 300px;
+        top: 600px;
+    }
+    from{
+        left: 0px;
+        top: 0;
+    }
+} */
+@keyframes demo{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    50%{
+        top: 0px;
+        left: 400px;
+    }
+    100%{
+        bottom: 300px;
+        left: 400px;
+    }
+}
