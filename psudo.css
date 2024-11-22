@@ -1,0 +1,21 @@
+#head1::first-letter{
+    font-size: 90px;
+    color: blue;
+}
+#head1::selection{
+    background-color: yellow;
+}
+.parag::first-line{
+    font-weight: bold;
+}
+input::placeholder{
+    color: rgb(43, 0, 255);
+}
+h2::before{
+    content: "All ";
+    color: rebeccapurple;
+}
+h2::after{
+    content: " Best";
+    color: blueviolet;
+}
