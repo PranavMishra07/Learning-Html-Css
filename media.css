@@ -1,0 +1,40 @@
+body{
+    background-color: red;
+}
+.head{
+    font-size: 50px;
+}
+.img{
+    width: 100%;
+}
+/* @media screen and (max-width:470px) {
+    body{
+        background-color: lightblue;
+    }
+.head{
+    font-size: 20px;
+}
+    
+
+}    */
+/* 
+@media  screen and (min-width:600px) {
+    body{
+        background-color: lightgreen;
+    }
+    .head{
+        font-size: 200px;
+        color: yellow;
+    }
+} */
+ @media screen and (min-width:500px) and (max-width:900px) {
+    body{
+        background-color: beige;
+    }
+    .head{
+        color: blue;
+    }
+    .img{
+       width: 100%;
+    }
+ }
