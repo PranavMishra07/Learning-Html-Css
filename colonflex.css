@@ -27,16 +27,28 @@
     gap: 30px;
 }
 .navbar label{
-    display: block;
+    display:none;
 }
 #check:checked~.navbar ul{
     display: block;
 }
+#check{
+    display: none;
+}
 @media screen and (max-width:500px) {
+    .navbar{
+        height: 60px;
+    }
     .navbar label{
         display: block;
     }
     .navbar ul{
         display: none;
+        position: absolute;
+        top: 50px;
+        right: 70px;
+        /* width: 100%; */
+        background-color: aqua;
     }
+
 }
