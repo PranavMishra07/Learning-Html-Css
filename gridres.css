@@ -1,0 +1,20 @@
+.container{
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+.ch{
+    background-color: red;
+    border: 3px solid;
+    margin: 10px;
+}
+@media screen and (min-width:500px) and (max-width:800px) {
+    .container{
+        grid-template-columns: repeat(2,auto);
+    }
+}
+@media screen and (max-width:500px) {
+    .container{
+        grid-template-columns: repeat(1,auto);
+    }
+}
