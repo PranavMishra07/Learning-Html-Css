@@ -55,9 +55,9 @@
 //     alert("wrong VAlue")    
 // }
 
-var a =1
-do{
+var a = 1
+do {
     console.log(a);
     a++
 }
-while(a<6)
+while (a < 6)
