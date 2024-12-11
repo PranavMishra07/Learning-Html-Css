@@ -37,8 +37,32 @@
 //write a programm to find area of circle radius taking from the user using function type 2 
 
 
-function Area(r){
-    console.log(2*3.14*r)
-}
-let r=parseInt(prompt("Enter Radius : "))
-Area(r)
+// function Area(r){
+//     console.log(2*3.14*r)
+// }
+// let r=parseInt(prompt("Enter Radius : "))
+// Area(r)
+
+
+//with argument and with return  type 4
+// function Myfun(num) {
+//     return 3.14 * num * num;
+
+// }
+// let c = Myfun(10)
+// console.log(c)
+
+
+
+// let head1 = document.getElementById("head")
+// head1.innerHTML = "Code with Cybrome"
+// head1.innerHTML="<p>Code with Cybrome</p>"
+let heading1 = document.getElementsByClassName('heading')
+heading1[0].innerHTML="Pranav"
+
+
+let list = document.getElementsByTagName('li')
+console.log("list");
+
+list[1].innerHTML="services"
+
