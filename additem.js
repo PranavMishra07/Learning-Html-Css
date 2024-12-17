@@ -1,7 +1,7 @@
 function minus( ){
     let a= 0
    
- document.querySelector("#h1").innerHTML="-1"
+ document.querySelector("#h1").innerHTML=-1
    
    
 }
@@ -12,7 +12,7 @@ function minus( ){
    
    
 // }
-let a= document.querySelector("#h1").innerHTML="0"
+// let a= document.querySelector("#h1").innerHTML="0"
 if(onclick=plus){
  
  document.querySelector("#h1").innerHTML=  a=a+1
