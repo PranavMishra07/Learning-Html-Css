@@ -1,13 +1,18 @@
-function plus() {
-    let a = 0
 
-    let plus = document.querySelector('#input').innerHTML = a + 1
-    if (onclick == 1) {
-        plus.innerHTML = 3
+let plus = document.querySelector('#plus')
+let minus = document.querySelector('#minus')
+let input = document.querySelector('#input')
+console.log(plus, minus, input)
 
+plus.addEventListener('click', () => {
+    input.value = parseInt(input.value) + 1;
+});
+minus.addEventListener('click', () => {
+    if (input.value <= 0) {
+        input.value = 0;
+    }
+    else {
+        input.value = parseInt(input.value) - 1;
     }
 
-
-
-
-}
+});
