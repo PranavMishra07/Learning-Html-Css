@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div{
+        div {
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
             gap: 10px;
         }
-        button{
+
+        input {
+            text-align: center;
+            height: 40px;
+            width: 40px;
+        }
+
+        button {
             height: 50px;
             width: 50px;
         }
     </style>
 </head>
+
 <body>
     <div>
-   <button id="minus" onclick="minus()" >-</button>
-   <h1 id="h1">0</h1>
-   <button onclick="plus()" id="plus">+</button>
-   </div>
+        <button onclick="minus()">-</button>
+        <h1 id="input">0</h1>
+        <button onclick="plus()">+</button>
+
+    </div>
     <script src="additem.js"></script>
 </body>
+
 </html>
