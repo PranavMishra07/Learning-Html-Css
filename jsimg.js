@@ -8,7 +8,9 @@
 // let head2 =document.getElementById('head2')
 // head2.style.cssText="background-color:red; color:white; padding:20px; text-align:center; "
 
-// head2.textContent="<i>All is well</i>"
+/* head2.textContent="<i>All is well</i>"   
+     change text for one element with tagname*/
+
 
 // document.getElementById('para').innerHTML="paragraph"
 
@@ -42,8 +44,8 @@
 // x.style.color="red"
 
 
-let u=document.querySelectorAll('h1')
-u[0].style.color="yellow"
+let u = document.querySelectorAll('h1')
+u[0].style.color = "yellow"
 
 
 

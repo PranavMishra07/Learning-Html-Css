@@ -10,7 +10,7 @@
 //     let i=1
 //     console.log("even")
 //     while(i<=10){
-     
+
 //         console.log(n + "X" + a + "=" n*i)
 //         i++
 //     }
@@ -30,17 +30,17 @@
 
 //   if(n==10 || n==5){
 //         console.log(n*n)
- 
+
 //     }
 //     else{
 //         console.log(n)
 //     }
- 
+
 // }
 // for(let b=10; b<=20;b++){
 //     if (b%2==0){
 //         console.log(b)
-        
+
 //     }
 // }
 
@@ -48,11 +48,13 @@
 // let n=5
 // for(let i=1;i<=n;i++){
 //     fact=fact*i
-  
+
 // }
-  
+
 // console.log(fact); 
 // let n=parseInt(prompt("Enter A Number :"))
+
+//sum of numbers
 // let sum=0,r
 // while(n!=0){
 // r=n%10
@@ -61,13 +63,13 @@
 // }
 // console.log(sum);
 // document.write(sum)
-let n,sum=0,r
-while(n!=0){
-    r=n%10
-    if(r%2==0){
-        sum=sum+r
+let n, sum = 0, r
+while (n != 0) {
+    r = n % 10
+    if (r % 2 == 0) {
+        sum = sum + r
     }
-   console.log(sum);
-   
+    console.log(sum);
+
 }
 

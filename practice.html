@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="head">Pranav Mishra</h1>
+    <h1 id="head2">Ok Sab Thik</h1>
+    <ol>
+        <li>12121</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <script>
+        let h = document.getElementById('head')
+        h.innerHTML = "knjn"
+        h.style.color = "blue"
+        h.style.fontSize = "80px"
+        h.style.backgroundColor = "red"
+        h.style.fontStyle = "italic"
+        h.innerHTML = "Pranav Mishra"
+        let head2 = document.getElementById('head2')
+        head2.style.cssText = "color: black;background-color: skyblue; padding:20px;font-size:50px;text-align:center"
+
+        head2.textContent = "<p>textContent/p>"
+        let order = document.getElementsByTagName('li')
+        order[0].style.cssText = "color:blue;"
+        order[1].innerHTML = "Pranav "
+        order[1].style.cssText = "background-color: yellow;"
+        for (i = 0; i <= 5; i++) {
+            if (i % 2 == 0) {
+                order[i].innerHTML = "name"
+                order[i].style.cssText = "background-color: red;"
+
+            }
+        }
+
+        let a = document.querySelector("#head2")
+        a.innerHTML = "jkfhjk"
+        a.style.cssText = "color:cyan; background-color: green;  padding:20px;text-align:center; font-size: 40px; "
+
+        let b = document.querySelectorAll('h1')
+        b[0].innerHTML = "PM Bj"
+        b[1].innerHTML = "Narendra Modi"
+        let c = document.querySelectorAll('li')
+        c[0].innerHTML = 'Pranav'
+        c[1].innerHTML = 'Pranav'
+        c[2].innerHTML = 'Pranav'
+        let v
+        let g = parseInt(prompt("Enter any Number : ", v))
+        console.log(g)
+        g % 2 == 0 ? console.log("even Numner") : console.log("odd")
+        while (g <= 10) {
+            console.log(g)
+            g++
+        }
+        for (i = 0; i <= 15; i++) {
+            if (i % 2 == 0) {
+
+                if (i == 6) {
+                    console.log(i * i)
+
+                }
+                else { console.log(i) }
+
+            }
+
+
+        }
+
+
+        let n = parseInt(prompt("Enter Any Number :"))
+        let l = 1
+        while (l <= 10) {
+            document.write(n + "*" + l + "=" + (n * l))
+            l++
+        }
+        let z = 5
+        let fact = 1
+        for (var i = 1; i <= z; i++) {
+            fact = fact * i
+            console.log(fact)
+        }
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

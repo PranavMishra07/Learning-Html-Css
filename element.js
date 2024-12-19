@@ -12,10 +12,10 @@ bd.append(head2)
 
 head_element.setAttribute('align', 'center')
 // head2.setAttribute('style', 'color:blue')
-head2.setAttribute('style', 'background-color:blue')
+head2.setAttribute('style', 'background-color:blue;',)
 
 bd.setAttribute('bgcolor', 'yellow')
-bd.removeAttribute('bgcolor')
+// bd.removeAttribute('bgcolor')
 
 let img = document.getElementById('image')
 img.setAttribute('src', 'flif/four.jpeg')
