@@ -9,6 +9,7 @@ function add() {
     bd = document.body
     h1.innerHTML = num1 + num2
     bd.append(h1)
+
     return false
 }
 
