@@ -11,9 +11,21 @@ function val() {
         document.querySelector("#contact").focus()
         return false
     }
-    else if (contact != number) {
-        alert("enter Number only")
-    }
+
+
+
+
 
 
 }
+
+
+let num = parseInt(prompt("Entr"));
+let count = 0
+while (num > 0) {
+    num /= 10
+    count++
+}
+console.log(count)
+
+
