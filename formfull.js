@@ -23,12 +23,12 @@ function validate() {
         document.querySelector("#contact").focus()
         return false
     }
-    else if (isNaN(contact)) {
+    else if (isNaN(contact)) {             // NAN not a Number   is return true or false
         alert("Age Should Be in number")
         document.querySelector("#contact").focus()
         return false
     }
-    else if (contact.length > 10 || contact.length < 10) {
+    else if (contact.length > 10 || contact.length < 10) {    // .length count length of the Number
         alert("Number Should Be 10 Digit ")
         document.querySelector("#contact").focus()
         return false
@@ -38,7 +38,7 @@ function validate() {
         document.querySelector("#email").focus()
         return false
     }
-    else if ((!email.includes("@"))) {
+    else if ((!email.includes("@"))) {     // includes check character is present or not in the input
         alert("use @ for Validation")
         document.querySelector("#email").focus()
         return false
@@ -53,7 +53,9 @@ function validate() {
         document.querySelector("#password").focus()
         return false
     }
-    else if (!(password.match(/[!~@#$%^&*(){}]/))) {
+    else if (!(password.match(/[!~@#$%^&*(){}]/))) {  // match also check   these characters is present or not
+
+        //  //in the input but in Array format 
         alert("please Enter atleast one special Character")
         document.querySelector("#password").focus()
         return false
@@ -81,4 +83,3 @@ let fname = () => { return "name" }
 console.log(fname())
 let u = (a) => { return a + a }
 console.log(u(2));
-
