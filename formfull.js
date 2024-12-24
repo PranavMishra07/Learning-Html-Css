@@ -3,6 +3,9 @@ function validate() {
     let age = document.querySelector("#age").value
     let contact = document.querySelector("#contact").value
     let email = document.querySelector("#email").value
+    let password = document.querySelector("#password").value
+    let cpassword = document.querySelector("#cpassword").value
+
 
 
     if (name == "") {
@@ -45,5 +48,37 @@ function validate() {
         document.querySelector("#age").focus()
         return false
     }
+    else if (password == "") {
+        alert("please Enter password")
+        document.querySelector("#password").focus()
+        return false
+    }
+    else if (!(password.match(/[!~@#$%^&*(){}]/))) {
+        alert("please Enter atleast one special Character")
+        document.querySelector("#password").focus()
+        return false
+    }
+    else if (password != cpassword) {
+        alert("Password is Mismatch")
+        document.querySelector("#cpassword").focus()
+        return false
+    }
+    else if (cpassword == "") {
+        alert("please Enter Confirm password")
+        document.querySelector("#password").focus()
+        return false
+    }
+
+
 
 }
+// arrow Function
+// ()=>{ return value}
+//()=>()
+//()=>
+//=>
+let fname = () => { return "name" }
+console.log(fname())
+let u = (a) => { return a + a }
+console.log(u(2));
+
