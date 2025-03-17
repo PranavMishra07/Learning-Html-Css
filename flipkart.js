@@ -1,28 +1,32 @@
-function fun1(){
+function fun1() {
     let img = document.getElementById('main')
-    img.src="flif/two.jpeg"
+    img.src = "flif/two.jpeg"
 }
-function fun2(){
+function fun2() {
     let img = document.getElementById('main')
-    img.src="flif/three.jpeg"
+    img.src = "flif/three.jpeg"
 }
-function fun3(){
+function fun3() {
     let img = document.getElementById('main')
-    img.src="flif/four.jpeg"
+    img.src = "flif/four.jpeg"
 }
-function fun4(){
+function fun4() {
     let img = document.getElementById('main')
-    img.src="flif/five.jpeg"
+    img.src = "flif/five.jpeg"
 }
-function fun5(){
+function fun5() {
     let img = document.getElementById('main')
-    img.src="flif/six.jpeg"
+    img.src = "flif/six.jpeg"
 }
-function fun6(){
+function fun6() {
     let img = document.getElementById('main')
-    img.src="flif/seven.jpeg"
+    img.src = "flif/seven.jpeg"
 }
-function fun7(){
+function fun7() {
     let img = document.getElementById('main')
-    img.src="flif/eight.jpeg"
+    img.src = "flif/eight.jpeg"
+}
+function fun8() {
+    let img = document.getElementById('main')
+    img.src = "flif/six.jpeg"
 }
