@@ -30,3 +30,7 @@ function fun8() {
     let img = document.getElementById('main')
     img.src = "flif/six.jpeg"
 }
+function fun9() {
+    let img = document.getElementById('main')
+    img.src = "flif/four.jpeg"
+}
