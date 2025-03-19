@@ -12,6 +12,7 @@
             padding: 10px
         }
 
+
         img {
             align-items: center;
             margin: 10px;
@@ -19,7 +20,13 @@
 
         .main {
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
+        }
+
+        #pos img {
+            position: fixed;
+            right: 0px;
+            z-index: 0;
         }
     </style>
 </head>
@@ -37,8 +44,9 @@
             <img src="flif/eight.jpeg" alt="" onmouseenter="fun7()">
             <img src="flif/two.jpeg" alt="" onmouseenter="fun8()">
             <img src="flif/three.jpeg" alt="" onmouseenter="fun9()">
+            <img src="flif/one.jpeg" alt="" onmouseenter="fun10()">
         </div>
-        <div>
+        <div id="pos">
             <img src="flif/one.jpeg" width="700px" height="600px" alt="" id="main">
         </div>
     </div>
