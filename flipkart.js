@@ -38,3 +38,7 @@ function fun10() {
     let img = document.getElementById('main')
     img.src = "flif/five.jpeg"
 }
+function fun11() {
+    let img = document.getElementById('main')
+    img.src = "flif/seven.jpeg"
+}
